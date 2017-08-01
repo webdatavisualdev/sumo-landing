@@ -8,11 +8,10 @@
     <meta name="author" content="">
     <link rel="icon" href="assets/img/favicon.ico">
 
-    <title>BlackTie.co - Page3</title>
+    <title>Page2</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-
 
     <!-- Custom styles for this template -->
     <link href="assets/css/ionicons.min.css" rel="stylesheet">
@@ -31,11 +30,12 @@
     <![endif]-->
   </head>
 
-  <body class="page3">
+  <body class="page2">
 
     <div id="h">
-      <div class="logo">BLACKTIE.CO</div>
+      <div class="logo">BLACKTIE</div>
       <div class="social hidden-xs">
+        <a href="#" class="btn btn-default">Add campaign</a>
         <a href="#" class="btn btn-default">Settings</a>
         <a href="#" class="btn btn-default">Log out</a>
       </div>
@@ -43,44 +43,50 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 centered">
             <h1>Welcome, name!</h1>
-            <h3>Select a category to see new oggers.</h3>
+            <h3>Manage your campaigns below.</h3>
           </div>
         </div><!--/row-->
       </div><!--/container-->
     </div><!-- /H -->
 
-    <div id="options">
-      <form>
-        <label class="radio-inline"><input type="radio" name="optradio">tech</label>
-        <label class="radio-inline"><input type="radio" name="optradio">cooking</label>
-        <label class="radio-inline"><input type="radio" name="optradio">photography</label>
-        <label class="radio-inline"><input type="radio" name="optradio">sports</label>
-        <label class="radio-inline"><input type="radio" name="optradio">lifestyle</label>
-        <label class="radio-inline"><input type="radio" name="optradio">education</label>
-        <label class="radio-inline"><input type="radio" name="optradio">others</label>
-      </form>
-    </div>
-
     <div class="container ptb">
       <div class="row">
         <div class="col-md-3 first">
-          <img src="">
+          <div class="upload">
+            <button class="btn btn-success">Upload</button>
+          </div>
         </div>
         <div class="col-md-3 second">
-          <h3>Title</h3>
-          <p>this is where a short description of at least a few lines can go</p>
+          <textarea class="small"></textarea>
+          <textarea class="big" rows="5"></textarea>
           <div>
             <i class="glyphicon glyphicon-time"></i>
-            <span>3 times / month</span>
+            <select>
+              <option>00:00</option>
+            </select>
+            <span>times / </span>
+            <button class="btn btn-default">month</button>
           </div>
         </div>
         <div class="col-md-3 third">
-          <p><u>1</u> subscribers wins:</p>
-          <h3><u>Free Peck</u></h3>
-          <p>peck description will go here</p>
+          <div>
+            <select>
+              <option>00:00</option>
+            </select>
+            <span>or</span>
+            <input type="radio" name="">
+            <span>ALL</span>
+          </div>
+          <p>Subscribers win:</p>
+          <textarea class="small"></textarea>
+          <textarea class="big" rows="5"></textarea>
         </div>
         <div class="col-md-3 fourth">
-          <button>Button</button>
+          <button class="btn btn-success">Delete</button>
+          <br>
+          <button class="btn btn-success btn-save">Save</button>
+          <br>
+          <button class="btn btn-success">Download</button>
         </div>
         <div class="col-md-12">
           <div class="left">
@@ -94,7 +100,9 @@
     <div id="sep">
       <div class="container">
         <div class="row centered">
-
+          <div class="col-md-8 col-md-offset-2">
+            <button class="btn btn-success">ADD CAMPAIGN</button>
+          </div><!--/col-md-8-->
         </div>
       </div>
     </div><!--/sep-->
